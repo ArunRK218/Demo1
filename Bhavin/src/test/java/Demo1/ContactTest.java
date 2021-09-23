@@ -16,7 +16,11 @@ public class ContactTest {
 
 	@Test(groups="RegresionSuite")
 	public void createContactWithOrgTest() {
+		String url = System.getProperty("url");
+		String browser = System.getProperty("browser");
 		System.out.println("execute createContactWithOrgTest");
+		System.out.println("===="+url);
+		System.out.println("===="+browser);
 	}
 	@Test(groups="RegresionSuite")
 	public void deleteContactTest() {
