@@ -17,4 +17,9 @@ public class OrgTest
 	public void deleteORGTest() {
 		System.out.println("execute deleteORGTest");
 	}
+	
+	@Test(groups="SmokeSuite")
+	public void SearchOrgTest() {
+		System.out.println("execute SearchOrgTest");
+	}
 }
